@@ -4,4 +4,5 @@ Also acts as a plugin for the [HeadlessMc](https://github.com/3arthqu4ke/headles
 to download the latest version of meteor.
 
 ![Screenshot](docs/screenshot.png)
+
 ![Screenshot2](docs/screenshot2.png)
