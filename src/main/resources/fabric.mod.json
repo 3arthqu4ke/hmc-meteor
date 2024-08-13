@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "hmc-meteor",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "HMC-Meteor",
+  "description": "An Addon for Meteor that adds HeadlessMc support.",
   "authors": [
-    "seasnail"
+    "3arthqu4ke"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/3arthqu4ke/hmc-meteor"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/hmcmeteor/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "me.earth.hmcmeteor.HmcMeteorAddon"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "hmcmeteor.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
@@ -26,6 +26,7 @@
   "depends": {
     "java": ">=21",
     "minecraft": ["${mc_version}"],
-    "meteor-client": "*"
+    "meteor-client": "*",
+    "headlessmc": "*"
   }
 }
